@@ -1,0 +1,17 @@
+## GPS initialization
+## Just to run the simulation in batch mode
+
+##/tracking/verbose 1
+/run/initialize
+
+## Our primary proton is shot towards the Right Plate.
+## at a very small angle. The angle calculation is done by hand.
+
+## The angle is 1.54449 rad.
+## Thus, sin(1.54449)=0.99965 and cos(1.5449)= 0.026303
+
+##/gun/direction 1 0 0
+/gun/direction 0.99965 0 0.026303
+/gun/particle proton
+/gun/momentumAmp 700 MeV
+/run/beamOn 1000000
