@@ -11,7 +11,9 @@ Source
 ======
 The source is point-like and placed at the origin of the global coordinate system. From there, we shoot *protons* one-by-one, at a fixed angle towards the *Right Plate*. The angle we shoot the *protons* is *φ=1.5°* with respect to the *x-axis* and the momentum of the protons is set to *p=700 MeV/c*.
 
-![Capture](https://github.com/KaretsosGithub/Geant4_CountingParticles/assets/95908746/596d6291-964f-486f-866a-99f3eb47cac0)
+<div align="center">
+    <img src="Screenshots/Geometry.PNG" width="100%" alt="Geometry">
+</div>
 
 How to run?
 ===========
