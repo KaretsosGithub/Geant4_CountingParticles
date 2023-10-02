@@ -38,8 +38,7 @@
 
 # To superimpose all of the events from a given run:
 /vis/scene/endOfEventAction accumulate
-#
-# field02 specific setting
+
 #
 # To get nice view
 /vis/geometry/set/visibility World 0 false
