@@ -34,7 +34,7 @@ public:
     // We'll build 2 logical volumes with different local fields
     G4LogicalVolume* World_Logical;                // World
     G4LogicalVolume* MotherLogicalVol;             // Mother Volume
-    G4LogicalVolume* fElectriclogical_Left_Plate;  // Plate 1 (LEFT Plate)
+    G4LogicalVolume* fElectriclogical_Left_Plate;  // Plate 1 (Left Plate)
     G4LogicalVolume* fElectriclogical_Right_Plate; // Plate 2 (Right Plate)
     G4LogicalVolume* fBetween;                     // Volume between  the two plates
 
